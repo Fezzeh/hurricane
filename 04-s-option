@@ -1,0 +1,19 @@
+#!/bin/bash
+
+read -p "enter your email address: " email
+
+read -sp "enter your pasword: " Password
+
+echo ""
+
+if [[ $email == "admin@example.com" && $password == "secret" ]]
+
+then
+
+echo "authenticated"
+
+else
+
+echo "non-authenticated"
+
+fi
