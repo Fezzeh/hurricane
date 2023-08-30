@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+echo "enter disk name : " 
+read
+echo "how many partitions? " 
+read
+sudo fdisk /dev/sdb
+for -sp "password for silver" password
+read
+for -p "command (m for help): " 
+do 
+echo n
+done
+

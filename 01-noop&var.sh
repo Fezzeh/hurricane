@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo "what is your favorite color?"
-read
+read REPLY
 echo "your favorite color is $REPLY"
 echo "how old are you?"
-read
+read REPLY
 echo "you're $REPLY"
 echo "whats your job?"
-read
+read REPLY
 echo "you're working as a $REPLY"
 
 
